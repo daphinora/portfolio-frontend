@@ -11,3 +11,35 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Navbar {
+  background-color: rgb(68, 33, 92);
+  font-family: "Penna";
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  padding: 10px;
+}
+
+a {
+  padding: 20px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(226, 213, 255);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(206, 184, 252);
+}
