@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Navbar className="Navbar">
       <Nav>
-        <Nav.Link href="#home" style={{color: "white", paddingLeft: "10px", fontSize: "50px"}}>Jack Mitchell</Nav.Link>
+        <Nav.Link href="#home" className="Name">Jack Mitchell</Nav.Link>
         <Nav.Link href="#home">Home</Nav.Link> | 
         <Nav.Link href="#contact">Contact</Nav.Link> | 
         <Nav.Link href="#blog">Blog</Nav.Link> | 
