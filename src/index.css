@@ -16,9 +16,16 @@ code {
   background-color: rgb(68, 33, 92);
   font-family: "Penna";
   font-size: 40px;
-  font-weight: 800;
+  font-weight: 600;
   color: white;
   padding: 10px;
+}
+
+.Name {
+  color: white;
+  padding-left: 10px;
+  font-size: 45px;
+  font-weight: 900;
 }
 
 a {
