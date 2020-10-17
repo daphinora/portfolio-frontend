@@ -10,10 +10,10 @@ ReactDOM.render(
     <Navbar className="Navbar">
       <Nav>
         <Nav.Link href="#home" className="Name">Jack Mitchell</Nav.Link>
-        <Nav.Link href="#home">Home</Nav.Link> | 
-        <Nav.Link href="#contact">Contact</Nav.Link> | 
-        <Nav.Link href="#blog">Blog</Nav.Link> | 
-        <Nav.Link href="#projects" style={{paddingRight: "0px"}}>Projects</Nav.Link>
+        <Nav.Link href="#home">Home</Nav.Link> |
+        <Nav.Link href="#contact">Contact</Nav.Link> |
+        <Nav.Link href="#blog">Blog</Nav.Link> |
+        <Nav.Link href="#projects" style={{ paddingRight: "0px" }}>Projects</Nav.Link>
       </Nav>
     </Navbar>
     <App />
