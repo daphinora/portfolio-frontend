@@ -8,7 +8,13 @@ function App() {
         <h1 className="Head-Line">Hi, I'm Jack Mitchell!</h1>
       </div>
 
-      <div id="contact">
+      <div id="about" className="Head-Line">
+        {/* <h2>Who am I?</h2> */}
+        <p>I'm an aspiring Full Stack Software Developer located in Austin, Texas.</p>
+        <p>Learning is my passion, and I'm excited to be in an industry full of learning opportunities!</p>
+      </div>
+
+      <div id="contact" className="Head-Line">
         <h2>Contact Jack Mitchell</h2>
         <p>Phone Number:</p>
         <a href="tel:5127880140">512-788-0140</a>
@@ -19,6 +25,8 @@ function App() {
         <p>GitHub:</p>
         <a href="http://www.github.com/daphinora">github.com/daphinora</a>
       </div>
+      <br/>
+      <a href="home">Back to Top</a>
     </div>
   );
 }
