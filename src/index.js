@@ -6,18 +6,20 @@ import * as serviceWorker from './serviceWorker';
 import { Nav, Navbar } from 'react-bootstrap';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Navbar className="Navbar">
-      <Nav>
-        <Nav.Link href="#home" className="Name">Jack Mitchell</Nav.Link>
-        <Nav.Link href="#home">Home</Nav.Link> | 
-        <Nav.Link href="#contact">Contact</Nav.Link> | 
-        <Nav.Link href="#blog">Blog</Nav.Link> | 
-        <Nav.Link href="#projects" style={{paddingRight: "0px"}}>Projects</Nav.Link>
-      </Nav>
-    </Navbar>
-    <App />
-  </React.StrictMode>,
+  <div className="Index">
+    <React.StrictMode>
+      <Navbar className="Navbar">
+        <Nav>
+          <Nav.Link href="#home" className="Name">JACK MITCHELL</Nav.Link>
+          <Nav.Link href="#about">About</Nav.Link> |
+          <Nav.Link href="#contact">Contact</Nav.Link> |
+          <Nav.Link href="#blog">Blog</Nav.Link> |
+          <Nav.Link href="#projects" style={{ paddingRight: "0px" }}>Projects</Nav.Link>
+        </Nav>
+      </Navbar>
+      <App />
+    </React.StrictMode>
+  </div>,
   document.getElementById('root')
 );
 

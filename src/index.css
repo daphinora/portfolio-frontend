@@ -1,30 +1,61 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Junction", -apple-system, BlinkMacSystemFont, "Penna", 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@font-face {
+  font-family: 'Junction';
+  src: local('Junction'), url(./fonts/junction/Junction-regular.otf) format('truetype');
+}
+
+.App {
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.Head-Line {
+  background-color: rgb(9 8 36);
+  /* margin: auto; */
+  padding: 30px;
+}
+
+.Image {
+  max-width: 100%;
+  height: auto;
+}
+
+.Index {
+  background-image: url("https://images.unsplash.com/photo-1563089145-599997674d42?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  /* height: 100vh; */
+  background-attachment: fixed;
+}
+
+.Name {
+  padding: 20px;
+  font-size: 20px;
 }
 
 .Navbar {
-  background-color: rgb(68, 33, 92);
-  font-family: "Penna";
-  font-size: 40px;
+  background-color: rgb(7 5 44);
+  font-size: 20px;
   font-weight: 600;
   color: white;
-  padding: 10px;
+  padding: 20px;
+  /* position: fixed; */
+  top: 0px;
 }
 
 .Name {
   color: white;
   padding-left: 10px;
-  font-size: 45px;
+  font-size: 50px;
   font-weight: 900;
 }
 
