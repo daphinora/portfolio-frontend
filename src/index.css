@@ -14,17 +14,25 @@ code {
   src: local('Junction'), url(./fonts/junction/Junction-regular.otf) format('truetype');
 }
 
+.About {
+  background-color: rgb(9 8 36);
+  padding: 30px;
+  max-width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
 .App {
   color: whitesmoke;
   font-weight: 500;
   font-size: 30px;
 }
 
-.Head-Line {
+/* .Head-Line {
   background-color: rgb(9 8 36);
-  /* margin: auto; */
+  margin: auto;
   padding: 30px;
-}
+} */
 
 .Image {
   max-width: 100%;
